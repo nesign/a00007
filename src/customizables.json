@@ -1,0 +1,155 @@
+{
+  "consts": {
+    "font-family": [
+      "Pacifico",
+      "Roboto",
+      "Chilanka",
+      "Comfortaa",
+      "Alegreya",
+      "B612",
+      "Muli",
+      "Titillium Web",
+      "Varela",
+      "Vollkorn",
+      "IBM Plex",
+      "Crimson Text",
+      "Cairo",
+      "BioRhyme",
+      "Karla",
+      "Lora",
+      "Frank Ruhl Libre",
+      "Playfair Display",
+      "Archivo",
+      "Spectral",
+      "Fjalla One",
+      "Montserrat",
+      "Rubik",
+      "Source Sans",
+      "Cardo",
+      "Cormorant",
+      "Work Sans",
+      "Rakkas",
+      "Concert One",
+      "Yatra One",
+      "Arvo",
+      "Lato",
+      "Abril FatFace",
+      "Ubuntu",
+      "PT Serif",
+      "Old Standard TT",
+      "Oswald",
+      "Nunito",
+      "Oxygen",
+      "Poppins"
+    ],
+    "font-size": [
+      "9px",
+      "10px",
+      "12px",
+      "16px",
+      "24px",
+      "36px",
+      "48px",
+      "60px",
+      "72px"
+    ],
+    "font-weight": [
+      "normal",
+      "bold",
+      "bolder",
+      "lighter",
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "background": {
+      "none": {
+        "name": "Clear",
+        "style": "background: none;"
+      },
+      "white": {
+        "name": "White",
+        "style": "background: #fff;"
+      },
+      "black": {
+        "name": "Black",
+        "style": "background: #000;"
+      },
+      "custom": {
+        "name": "Custom Color",
+        "style": "background: {{color}};"
+      }
+    },
+    "bgStyles": [
+      "0P0IwJfdBkNEQBrZKNWQ",
+      "3vnh7ACfHGkg9lVdWs1b",
+      "iMvOuiL1kqDzObHQHQN1",
+      "vdvyzKvXqovVQ9V1viak"
+    ]
+  },
+  "customizables": {
+    "guestName": {
+      "font-family": "",
+      "font-size": "",
+      "font-weight": ""
+    },
+    "titleJumbotron": {
+      "background": ""
+    },
+    "title": {
+      "font-family": "",
+      "font-size": "",
+      "font-weight": "",
+      "color": ""
+    },
+    "shortMsg": {
+      "font-family": "",
+      "font-size": "",
+      "font-weight": ""
+    },
+    "longMsg": {
+      "font-family": "",
+      "font-size": "",
+      "background": ""
+    },
+    "addrTextCard": {
+      "background": ""
+    },
+    "addrTextTitle": {
+      "font-family": "",
+      "font-size": "",
+      "font-weight": "",
+      "color": ""
+    },
+    "addrText": {
+      "font-family": "",
+      "font-size": "",
+      "font-weight": "",
+      "color": ""
+    },
+    "timeCard": {
+      "background": ""
+    },
+    "timeTitle": {
+      "font-family": "",
+      "font-size": "",
+      "font-weight": "",
+      "color": ""
+    },
+    "time": {
+      "font-family": "",
+      "font-size": "",
+      "font-weight": "",
+      "color": ""
+    },
+    "inviteBackground": {
+      "bgStyle": ""
+    }
+  }
+}
