@@ -1,0 +1,39 @@
+<head></head><!-- Custom template goes here -->
+<div id="inviteDesign">
+  <section class="row mx-0">
+    <div class="col-12">
+      <span id="guestName">{{invite.guestName}},</span>
+    </div>
+  </section>
+  <section class="row mt-md-5 mx-0">
+    <div class="col-12 col-md-8 d-flex align-content-center flex-wrap justify-content-center">
+      <h1 id="shortMsg" class="col-12 d-flex justify-content-center">
+        <span>{{invite.shortMsg}}</span>
+      </h1>
+      <div id="title" class="col-12 d-flex justify-content-center">{{invite.title}}</div>
+    </div>
+    <div class="col-12 col-md-4">
+      {{#if mainPhoto}}
+      {{#if isVideoInvite}}
+      <div class="p-md-5 d-flex justify-content-center align-items-center">
+        <iframe class="embed-responsive-item" width="560" height="315" src="{{mainPhoto.url}}"
+          allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      {{else}}
+      <img src="{{invite.mainPhoto.url}}" class="card-img-top rounded" alt="{{invite.mainPhoto.title}}" id="mainPhoto">
+      {{/if}}
+      {{/if}}
+    </div>
+  </section>
+  <section class="row mt-md-5 mx-0">
+    <div id="addrTextCard" class="col-12 col-md-6">
+      <h4 id="addrTextTitle">Venue</h4>
+      <small id="addrText">{{invite.addrText}}</small>
+    </div>
+    <div id="timeCard" class="col-12 col-md-6 pt-5 pt-md-0">
+      <h4 id="timeTitle">Time</h4>
+      <small id="time">{{invite.timeFromString}} {{# if invite.timeTo}} - {{endsat invite}} {{/if}}</small>
+    </div>
+  </section>
+  <div id="inviteBackground"></div>
+</div>
